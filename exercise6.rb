@@ -1,4 +1,5 @@
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
+grocery_list.pop
 grocery_list.push("rice")
 puts grocery_list
 grocery_list.map! {|x| "*" + x }
