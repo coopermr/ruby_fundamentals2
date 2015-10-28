@@ -12,3 +12,5 @@ else false
   puts "You don't need to pick up bananas today"
 end
 puts grocery_list[1]
+puts grocery_list.sort!
+puts grocery_list
