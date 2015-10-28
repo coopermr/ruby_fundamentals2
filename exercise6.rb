@@ -3,5 +3,5 @@ grocery_list.push("rice")
 puts grocery_list
 grocery_list.map! {|x| "*" + x }
 puts grocery_list
-
+puts grocery_list.size
 
