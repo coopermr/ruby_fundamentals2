@@ -3,5 +3,8 @@ students[:cohort4] = "43"
 students.each do |key, value|
 	puts "#{key}: #{value}"
 end
-#students[cohort4] = "43"
-#puts students
+students.each do |key, value|
+  puts "#{key}"
+end
+# students[cohort4] = "43"
+# puts students
